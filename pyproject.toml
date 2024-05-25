@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "neighbours"
+version = "0.0.1"
+description = "A python implementation of popular nearest neighbour algorithm, it is for learning purpose only."
+authors = ["y"]
+readme = "instructions.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
